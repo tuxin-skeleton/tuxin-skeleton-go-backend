@@ -1,0 +1,6 @@
+.idea
+config/*
+!config/*.defaults
+cert/*
+vendor
+tuxin-skeleton-go-backend
