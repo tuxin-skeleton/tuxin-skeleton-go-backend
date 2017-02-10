@@ -1,14 +1,16 @@
-hash: b1de08be00719c66952e1c879faeb56c481f7e56822249d47c0f60983e9519eb
-updated: 2016-10-12T11:03:27.27494497+03:00
+hash: ab09a85615aa5aae157fbf077804a8a6bb89b6678900775d657070416b09b985
+updated: 2017-01-31T19:16:03.516221449+02:00
 imports:
 - name: github.com/go-ini/ini
-  version: 6e4869b434bd001f6983749881c7ead3545887d8
+  version: e3c2d47c61e5333f9aa2974695dd94396eb69c75
 - name: github.com/gorilla/context
   version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
-  version: 0eeaf8392f5b04950925b8a69fe70f110fa7cbfc
+  version: 392c28fe23e1c45ddba891b0320b3b5df220beea
 - name: github.com/jingweno/negroni-gorelic
   version: 0547cdd62f4b911984d435279bd46b4d1a580823
+- name: github.com/newrelic/go-agent
+  version: 7d12ae2201fc160e486197614a6f65afcf3f8170
 - name: github.com/phyber/negroni-gzip
   version: 13f05ed68248e012fcc773ecd829abcc0bb3abd8
   subpackages:

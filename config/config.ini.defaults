@@ -20,3 +20,7 @@ Routes=help,welcome
 HttpsPort=10444
 ReadTimeout=5
 WriteTimeout=10
+
+[Features]
+EnableNewRelic=true
+EnableSsl=true

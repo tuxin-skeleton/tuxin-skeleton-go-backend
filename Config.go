@@ -32,9 +32,16 @@ type NewRelic struct {
 type WebServer struct {
 	ClientPath string
 	Routes []string
+	HttpPort uint64
 	HttpsPort uint64
 	ReadTimeout uint
 	WriteTimeout uint
+}
+
+type Features struct {
+	EnableHttp bool
+	EnableHttps bool
+	EnableNewRelic bool
 }
 
 type ConfigIni struct {
@@ -43,6 +50,7 @@ type ConfigIni struct {
 	NewRelic
 	Auth0
 	WebServer
+	Features
 }
 
 var CfgIni *ConfigIni
